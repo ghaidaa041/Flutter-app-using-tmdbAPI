@@ -22,8 +22,8 @@ class _MoviesWidgetState extends State<MoviesWidget> {
     super.initState();
   }
 
-  final String kayApi = '06d4bdc1b64b1dad62ed7c564068e3d4';
-  final String token = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNmQ0YmRjMWI2NGIxZGFkNjJlZDdjNTY0MDY4ZTNkNCIsInN1YiI6IjYwY2Q5Njk0NWZmMzRlMDA2Y2Y0NmNiYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ayMvnO4Hz5fbR1qScbl3MFDvYe4DPkKcIIy-lJLQFGk';
+  final String kayApi = '';   // add your API Key
+  final String token = '';    // add your Token
 
   List <dynamic> trendingMovies  ;
   List <dynamic> popularMovies ;
